@@ -21,5 +21,14 @@
         </plugins>
     </build>
 
+    <!-- trigger commit -->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/maciejwalkowiak/github-packages-playground</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
